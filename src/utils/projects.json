@@ -1,0 +1,67 @@
+{
+  "project6": {
+    "name": "Calculator",
+    "image": "https://www.linkpicture.com/q/calculator_2.jpg",
+    "languages": ["JS", "CSS3", "HTML5"],
+    "description": "App created with HTML, CSS and JS",
+    "github": "https://github.com/catastan99/calculator",
+    "link": "http://calculator.stancatalin.eu"
+  },
+
+  "project2": {
+    "name": "Dashboard",
+    "image": "https://i.ibb.co/pb5hB5f/dash.jpg",
+    "languages": ["HTML5", "CSS3"],
+    "description": "Dashboard created with HTML and CSS",
+    "github": "https://github.com/catastan99/dashboard",
+    "link": "http://dashboard.stancatalin.eu"
+  },
+  "project1": {
+    "name": "Shoppo",
+    "image": "https://i.ibb.co/TPsMf5s/shoppo.jpg",
+    "languages": ["React", "HTML5", "CSS3"],
+    "description": "Online shop created using React and React Redux",
+    "github": "http://www.github.com/catastan99/shoppo",
+    "link": "http://shop.stancatalin.eu"
+  },
+  "project3": {
+    "name": "Shopping List",
+    "image": "https://i.ibb.co/HHHffq9/lista.jpg",
+    "languages": ["REACT", "CSS3"],
+    "description": "App created with React for learning how state and props work",
+    "github": "https://github.com/catastan99/shopping-list",
+    "link": "http://stancatalin.eu"
+  },
+  "project4": {
+    "name": "Rent a Car",
+    "image": "https://i.ibb.co/3rtfkd1/rent.jpg",
+    "languages": ["JS", "CSS3", "HTML5"],
+    "description": "App created with HTML, CSS and JS",
+    "github": "",
+    "link": "http://rent.stancatalin.eu"
+  },
+  "project5": {
+    "name": "HomeBuilder",
+    "image": "https://i.ibb.co/6NYh3nd/homebuilder.jpg",
+    "languages": ["JS", "CSS3", "HTML5"],
+    "description": "App created with HTML, CSS and JS",
+    "github": "https://github.com/catastan99/home-builder",
+    "link": "http://homebuilder.stancatalin.eu"
+  },
+  "project7": {
+    "name": "Weather",
+    "image": "https://i.ibb.co/WPgyQb9/vremea.jpg",
+    "languages": ["REACT", "SCSS"],
+    "description": "App created with React",
+    "github": "https://github.com/catastan99/weather/tree/main/src",
+    "link": "http://vremea.stancatalin.eu"
+  },
+  "project8": {
+    "name": "TicTacToe",
+    "image": "https://i.ibb.co/FnYhZ2x/tictactoe.jpg",
+    "languages": ["JS", "CSS3", "HTML5"],
+    "description": "App created with HTML and JS",
+    "github": "https://github.com/catastan99/tic-tac-toe",
+    "link": "http://tictactoe.stancatalin.eu"
+  }
+}

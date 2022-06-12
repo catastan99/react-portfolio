@@ -1,0 +1,65 @@
+.ContactForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 20px;
+  margin: 40px 0;
+  height: 0;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+.ContactForm input {
+  padding: 10px 5px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+.ContactForm textarea {
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 6px;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 3;
+  resize: none;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.ContactForm #submit {
+  background-color: var(--dark-blue);
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.ContactForm #submit:hover {
+  background-color: var(--yellow);
+  color: var(--dark-blue);
+}
+
+.validation {
+  padding: 10px;
+  background-color: var(--dark-blue);
+  width: fit-content;
+  color: #fff;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    min-height: min-content;
+  }
+
+  .ContactForm textarea {
+    grid-column: auto;
+    grid-row: auto;
+    height: 120px;
+  }
+}

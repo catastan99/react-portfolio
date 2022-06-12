@@ -1,0 +1,20 @@
+.About {
+  padding: 68px 0;
+}
+
+.About > p.description {
+  margin-top: 32px;
+  width: 75%;
+}
+
+.About .about-items-list {
+  margin-top: 145px;
+}
+
+@media screen and (max-width: 700px) {
+  .About > p.description {
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+  }
+}

@@ -1,0 +1,102 @@
+.Hero {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 80px - 36px);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Hero .hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: var(--dark-blue);
+}
+
+.Hero .small-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.Hero .big-text {
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 116px;
+  font-style: normal;
+  margin: 10px 0;
+}
+
+
+
+@keyframes entryAnim {
+  from {
+    margin-left: -500px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes entryAnim2 {
+  from {
+    margin-left: -1000px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes entryAnim3 {
+  from {
+    margin-left: -1500px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes entryAnim4 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Hero .hero-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Hero .small-text {
+    font-size: 23px;
+  }
+
+  .Hero .big-text {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Hero .small-text {
+    font-size: 23px;
+  }
+
+  .Hero .big-text {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}
